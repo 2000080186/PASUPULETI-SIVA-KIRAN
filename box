@@ -1,0 +1,25 @@
+class Box{  
+int length;
+int breadth;  
+int height;
+void setLength(int l){  
+length=l;
+}
+void setBreadth(int b){  
+breadth=b;
+}
+void setHeight(int h){  
+height=h;
+}
+void getVolume(){  
+System.out.println("Volume of the Box is : "+(length*breadth*height));
+}
+}
+public class BoxMain {
+public static void main(String[] args) {  
+Box b=new Box();  
+b.setLength(13);
+b.setBreadth(12);  
+b.setHeight(11);  
+b.getVolume();
+}
