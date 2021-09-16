@@ -1,0 +1,17 @@
+class First{
+     int a=10;
+     void update(int newVal){
+      a=newVal;
+}
+     void disp(){
+          System.out.println("value of a is"+a);
+}
+public static void main(String args[]){
+
+ First obj=new First();
+
+ obj.disp();
+ obj.update(20);
+ obj.disp();
+}
+}
