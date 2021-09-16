@@ -1,0 +1,12 @@
+class subClass{
+ String msg="hello welcome to classes";
+void disp(){
+System.out.println(msg);
+}
+}
+class MainClass{
+public static void main(String args[]){
+subClass sc=new subClass();
+sc.disp();
+}
+}
