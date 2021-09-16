@@ -1,0 +1,19 @@
+class Solution {
+    public int lengthOfLastWord(String s) {
+        // catch edge case of blank input
+        if (s.length()<=0) return 0;
+        
+        // split into words
+        String[] words = s.split("\\s+");
+        
+        // if one or less words, then return the length of the trimmed string
+        if (words.length<=1) return s.trim().length();
+        
+        // get the alst word
+        String lastWord = words[words.length-1];
+        
+        // return the last word's length
+        return lastWord.length();
+        
+    }
+}
