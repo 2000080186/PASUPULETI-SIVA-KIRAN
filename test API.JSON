@@ -1,3 +1,15 @@
 {
   "query": "I am hiring for a Java Developer role and need an assessment for Java skills in 40 minutes."
 }
+{
+  "recommendations": [
+    {
+      "assessment_name": "Java Development Skills Test",
+      "url": "https://www.shl.com/solutions/products/java-developer-assessment",
+      "remote_testing": "Yes",
+      "adaptive_support": "Yes",
+      "duration": "40 minutes",
+      "test_type": "Skills Assessment"
+    }
+  ]
+}
